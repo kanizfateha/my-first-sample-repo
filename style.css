@@ -1,0 +1,104 @@
+*,
+*::before,
+*::after{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+/* global */
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0 auto;
+    line-height: 1.6rm;
+}
+
+img{
+    max-width: 100%;
+    display:block;
+}
+
+h1,h2,h3,p{
+    margin: 0;
+}
+
+.container{
+    max-width: 65em;
+    width: 85%;
+    margin: 0 auto;
+}
+.btn{
+    display:inline-block;
+    text-decoration: none;
+    padding: .5em 1.25em;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #0000ff;
+    color: white;
+    border-radius: .25em;
+        transition: 
+            transform 250ms ease-in-out,
+            opacity 250ms linear;
+}
+.btn:hover,
+.btn:focus{
+   transform:scale(1.1) ;
+   opacity:.9;}
+   /* end global */
+
+
+/* start-of-hero */
+.primary-title{
+    font-size: 4rem;
+    line-height: 1.1em;
+    text-transform: uppercase;
+}
+
+.hero{
+    color:black;
+    text-align: center;
+    padding:15em 0;
+    background-image: url(../project/image/winter-7607144_960_720.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-attachment: fixed; 
+}
+
+.hero .btn{
+    margin-top: 20px;
+}
+/* end-of-hero */
+
+
+/* featured section start */
+.section-title{
+    text-align: center;
+    font-size: 3rem ;
+    margin-bottom: 3rem;
+
+}
+.spilt{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em; 
+    justify-content: center;
+  
+}
+.spilt > *{
+    flex-basis: 30%;
+    min-width: 10em;
+}
+.featured {
+    background: #eee;
+  }
+
+.featured .featured-item{
+
+}
+.featured .featured-item:hover:focus{
+    background-color: white;
+}
+
+
+   
+
